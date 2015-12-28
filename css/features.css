@@ -1,0 +1,80 @@
+.colors {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#indigo {
+  background-color: indigo;
+}
+
+#violet {
+  background-color: violet;
+}
+
+.textures {
+  width: 40px;
+  height: 50px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#circles {
+  background-image: url('../images/texture-circles.png')
+}
+
+#cloth {
+  background-image: url('../images/texture-cloth.png')
+}
+
+#paper {
+  background-image: url('../images/texture-paper.png')
+}
+
+#swirls {
+  background-image: url('../images/texture-swirls.png')
+}
+
+#message-output {
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: 100px;
+  height: 50px;
+  width: 100%;
+}
+
+#recipient-output {
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+}
+
+.stickers_on_card {
+  cursor: move;
+}
